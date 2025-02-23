@@ -2,9 +2,14 @@
 
 Welcome to the EKEEL documentation repository. This repository uses [MkDocs](https://www.mkdocs.org/) to generate and host the documentation for the EKEEL project.
 
+The documentation is available at the [ekeel-project/docs](https://ekeel-project.github.io/docs/) website
+
 ## Overview
 
 EKEEL (Empowering Knowledge Extraction to Empower Learners) is a project aimed at providing tools and services for knowledge extraction and transcription. This repository contains the documentation for the EKEEL project, including setup guides, deployment instructions, and code references.
+
+The documentation refreshes every Monday at 4 AM and updates the website content.
+
 
 ## Repositories
 
