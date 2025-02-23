@@ -1,6 +1,6 @@
 site_name: "EKEEL - Empowering Knowledge Extraction to Empower Learners"
-repo_url: https://github.com/ekeel-project/ekeel
-site_url: https://ekeel-project.github.io/ekeel/docs/
+repo_url: https://github.com/ekeel-project/docs/
+site_url: https://ekeel-project.github.io/docs/
 
 docs_dir: mkdocs
 site_dir: docs

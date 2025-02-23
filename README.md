@@ -55,7 +55,7 @@ To build and serve the documentation locally, follow these steps:
     mkdocs serve
     ```
 
-5. Open your browser and navigate to `http://127.0.0.1:8000` to view the documentation.
+5. Open your browser and navigate to `http://127.0.0.1:8000/docs/` to view the documentation.
 
 # WARNING 
 

@@ -12,6 +12,8 @@ pip install -r mkdocs/requirements.txt
 mkdocs serve
 ``` 
 
+Open your browser and navigate to `http://127.0.0.1:8000/docs/` to view the documentation.
+
 !!! warning
     Use a different environment from ```ekeel_anno_env``` and ```ekeel_aug_env``` (the two environments of the project) to avoid mixing packages and create possible conflicts
 
