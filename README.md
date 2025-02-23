@@ -23,6 +23,8 @@ The documentation is organized using MkDocs with the Material theme. The documen
 
 ## Getting Started
 
+The documentation deployment has been tested on Ubuntu 24 but should work with small adaptations on [WSL](https://learn.microsoft.com/en-us/windows/wsl/about)
+
 To build and serve the documentation locally, follow these steps:
 
 1. Clone this repository:
@@ -49,6 +51,10 @@ To build and serve the documentation locally, follow these steps:
     ```
 
 5. Open your browser and navigate to `http://127.0.0.1:8000` to view the documentation.
+
+# WARNING 
+
+The branch `gh-pages` is used for the deployment of the website. Be careful not to overwrite this branch.
 
 ## Contributing
 
