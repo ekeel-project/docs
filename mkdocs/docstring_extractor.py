@@ -9,7 +9,7 @@ import sys
 
 nav = mkdocs_gen_files.Nav()
 
-root_code_dir = Path(__file__).parent.parent.joinpath("EVA_apps").resolve()
+root_code_dir = Path(__file__).parent.parent.joinpath("apps").resolve()
 sys.path.insert(0, str(root_code_dir.parent))
 
 all_paths = []
