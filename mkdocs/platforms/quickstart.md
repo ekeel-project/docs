@@ -26,7 +26,7 @@ If you don't already have VS Code installed, download and install it from [here]
 
 ---
 ### **Step 3: Paste `secrets.env`**
-- Ask the project manager for the `secrets.env` file and place the file in the directory `EVA_apps/sharedSecrets/`
+- Ask the project manager for the `secrets.env` file and place the file in the directory `annotator/code` and in `augmentator/src/flask-server`
 
 
 ---

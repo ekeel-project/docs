@@ -21,9 +21,9 @@ sudo apt install libtesseract-dev
 ---
 
 
-"cd" to the folder EKEELVideoAnnotation
+"cd" to the folder annotator/code
 
-    > cd {path to the folder EKEELVideoAnnotation}
+    > cd {path to the folder annotator/code}
 
 
 conda create the python environment from a yml file
@@ -46,7 +46,7 @@ To avoid inconsistency between local and server, yml file has been used to enfor
 
 open a terminal:
 
-    > cd {inside folder EKEELVideoAnnotation}
+    > cd {inside folder annotator/code}
 
 
 overwrite the conda_environment.yml inside using

@@ -69,7 +69,7 @@ The app should start automatically in the default browser at this point..
 To avoid inconsistency between local and server, yml file has been used to enforce same environment state
 
 open a terminal:
-  > cd {inside folder EKEELVideoAugmentation/src/flask-server}
+  > cd {inside folder augmentator/src/flask-server}
 
 
 overwrite the conda_environment.yml inside using
