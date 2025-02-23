@@ -17,12 +17,18 @@ It does not work on Windows for libraries compatibility issues, but only on Linu
 If you don't already have VS Code installed, download and install it from [here](https://code.visualstudio.com/).
 
 ---
+### **Step 2: Clone the Repositories via VS Code**
+Based on the project you are working on, clone one or both of the repositories, since they are independent.
 
-### **Step 2: Clone the Repository via VS Code**
-1. Clone the repo using the [official guide](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_clone-a-repository-locally)
-2. Enter the repository URL: `https://github.com/ekeel-project/ekeel.git`
-3. Choose a local directory where you want to clone the repository.
-4. VS Code will clone the repository and prompt you to open the cloned folder. Click **Open**.
+1. Create a folder named `apps` at the same level as `docs`.
+2. Clone the `annotator` repository:
+    - Enter the repository URL: `https://github.com/ekeel-project/annotator.git`
+    - Choose the `apps` directory as the local directory.
+    - VS Code will clone the repository and prompt you to open the cloned folder. Click **Open**.
+3. Clone the `augmentator` repository:
+    - Enter the repository URL: `https://github.com/ekeel-project/augmentator.git`
+    - Choose the `apps` directory as the local directory.
+    - VS Code will clone the repository and prompt you to open the cloned folder. Click **Open**.
 
 ---
 ### **Step 3: Paste `secrets.env`**
