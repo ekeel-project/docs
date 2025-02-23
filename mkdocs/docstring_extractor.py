@@ -14,7 +14,7 @@ sys.path.insert(0, str(root_code_dir.parent))
 
 all_paths = []
 for path in sorted(Path(root_code_dir).rglob("*.py")):
-    if not "__" in path.__str__():
+    if not "__" in path.__str__() and not "/_" in path.__str__():
         all_paths.append(path)
 
 
