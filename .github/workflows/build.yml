@@ -19,15 +19,16 @@ jobs:
 
     - name: Clone annotator repository
       run: |
-        mkdir -p apps
-        git clone https://github.com/ekeel-project/annotator.git apps/annotator
+        cd ../
+        git clone https://github.com/ekeel-project/annotator.git
 
     - name: Clone augmentator repository
       run: |
-        git clone https://github.com/ekeel-project/augmentator.git apps/augmentator
+        git clone https://github.com/ekeel-project/augmentator.git
 
     - name: Install dependencies for mkdocs
       run: |
+        cd docs
         python -m pip install --upgrade pip
         pip install -r mkdocs/requirements.txt
 

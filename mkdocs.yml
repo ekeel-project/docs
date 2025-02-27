@@ -75,13 +75,15 @@ nav:
       - Annotator: platforms/annotator/deploy.md
       - Augmentator: platforms/augmentator/deploy.md
       - Transcriber: platforms/annotator/transcriber/deploy.md
-  - Codebase: codebase/
+  - Codebase:
+    - Introduction: codebase/introduction.md
+    - Apps: codebase/
   - Documentation: 
-      - Mkdocs: prerequisites/mkdocs.md
+    - Mkdocs: prerequisites/mkdocs.md
 
 extra:
   social:
-  - icon: fontawesome/brands/twitter
-    link: about:void
-  - icon: fontawesome/brands/blogger
-    link: https://ekeel.dibris.unige.it/
+    - icon: fontawesome/brands/twitter
+      link: about:void
+    - icon: fontawesome/brands/blogger
+      link: https://ekeel.dibris.unige.it/

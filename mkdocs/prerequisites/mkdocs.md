@@ -25,3 +25,6 @@ mkdocs serve
 
 !!! warning
     Use a different environment from ```ekeel_anno_env``` and ```ekeel_aug_env``` (the two environments of the project) to avoid mixing packages and create possible conflicts
+
+!!! warning
+    The branch `gh-pages` is used for the deployment of the website. Be careful not to use this branch.
