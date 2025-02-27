@@ -28,6 +28,7 @@ jobs:
 
     - name: Install dependencies for mkdocs
       run: |
+        ls
         cd docs
         python -m pip install --upgrade pip
         pip install -r mkdocs/requirements.txt
