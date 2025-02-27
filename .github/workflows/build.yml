@@ -23,6 +23,7 @@ jobs:
         cd ../
         git clone https://github.com/ekeel-project/annotator.git
         pwd
+        ls
 
     - name: Clone augmentator repository
       run: |
@@ -30,6 +31,7 @@ jobs:
         cd ../
         git clone https://github.com/ekeel-project/augmentator.git
         pwd
+        ls
 
     - name: Install dependencies for mkdocs
       run: |
@@ -46,6 +48,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
+        publish_dir: docs
         publish_branch: gh-pages
         force_orphan: true
