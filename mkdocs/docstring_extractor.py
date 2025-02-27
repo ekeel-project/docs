@@ -25,7 +25,7 @@ sys.path.insert(0, str(root_code_dir))
 
 all_paths = []
 for path in sorted(Path(root_code_dir).rglob("*.py")):
-    if not any([excluded_path in path.__str__() for excluded_path in ["__","/_","docs/"]]):
+    if not any([excluded_path in path.__str__() for excluded_path in ["__","/_"]]):
         all_paths.append(path)
 
 
