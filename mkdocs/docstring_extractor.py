@@ -1,5 +1,32 @@
 """
-Generate the code reference pages and navigation.
+
+This script scans the parents folders code directory for Python files, generates
+documentation pages for each module, and builds a navigation structure for MkDocs.
+
+Attributes
+----------
+nav : mkdocs_gen_files.Nav
+    An instance of MkDocs navigation builder.
+root_code_dir : pathlib.Path or None
+    The root directory containing the code to document. Determined based on the
+    existence of specific directories.
+all_paths : list of pathlib.Path
+    A list of all Python file paths in the root code directory that are not
+    private or special files.
+
+Raises
+------
+FileNotFoundError
+    If the root code directory cannot be found.
+
+Note
+-----
+
+The script generates Markdown files for each Python module and places them in
+the "codebase" directory. It edits a "CODE_INDEX.md" file with the
+navigation structure.
+
+This is used to generate the code reference pages and navigation.
 """
 
 from pathlib import Path
