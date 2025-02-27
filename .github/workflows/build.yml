@@ -21,10 +21,16 @@ jobs:
       run: |
         mkdir -p apps
         git clone https://github.com/ekeel-project/annotator.git apps/annotator
+        cd apps/annotator
+        pwd
+        ls
 
     - name: Clone augmentator repository
       run: |
         git clone https://github.com/ekeel-project/augmentator.git apps/augmentator
+        cd apps/augmentator
+        pwd
+        ls
 
     - name: Install dependencies for mkdocs
       run: |
