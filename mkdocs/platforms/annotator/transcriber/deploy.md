@@ -38,4 +38,4 @@ If the service is running correctly, you should see an active (running) status.
 --------------
 ## Code
 
-The code is available [here](../../../codebase/apps/annotator/transcribe)
+The code is available [here](../../../../codebase/annotator/code/transcribe)

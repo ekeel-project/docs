@@ -13,11 +13,12 @@ root_code_dir = None
 if (Path(__file__).parent.parent / "apps" / "annotator").exists():
     root_code_dir = (Path(__file__).parent.parent / "apps").resolve()
 elif (Path(__file__).parent.parent.parent / "annotator").exists():
-    root_code_dir = (Path(__file__).parent.parent).resolve()
+    root_code_dir = (Path(__file__).parent.parent.parent).resolve()
 
 if root_code_dir is None:
     raise FileNotFoundError("Could not find the root code directory")
 
+#print(root_code_dir)
 sys.path.insert(0, str(root_code_dir.parent))
 
 all_paths = []
