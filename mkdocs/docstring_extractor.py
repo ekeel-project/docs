@@ -17,6 +17,7 @@ if all([project_name in os.listdir(Path(__file__).parent.parent.parent) for proj
 elif all([project_name in os.listdir(Path(__file__).parent.parent.joinpath("apps")) for project_name in ["annotator","augmentator"]]):
     root_code_dir = Path(__file__).parent.parent.joinpath("apps").resolve()
     
+print(f"Root code dir: {root_code_dir}")
 if root_code_dir is None:
     raise Exception(f"Root code dir not found: {root_code_dir}")
 
