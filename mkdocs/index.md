@@ -358,10 +358,13 @@ Can be accessed at [Ekeel Augmentator Webpage](http://ekeel-service.dibris.unige
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <style>
-    .md-grid {
+    .md-sidebar.md-sidebar--primary {
+      display:none;
+    }
+    .md-main__inner {
       margin-left:auto;
       margin-right:auto;
-      max-width:80rem;
+      max-width:100%;
     }
     .mermaid-container {
         display: flex;

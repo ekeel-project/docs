@@ -7,12 +7,45 @@ Its update is fully automated with every code modification, as long as classes a
 
 To modify and view the live-updated content locally:
 
-1. Clone the repos inside `apps` folder
+1. Clone the repos
+
+Starting from working directory inside `docs` folder allows to manage every project independently:
+```bash
+cd ../
+git clone https://github.com/ekeel-project/annotator.git
+git clone https://github.com/ekeel-project/augmentator.git
+```
+This will create the following structure:
+```
+{workspace root}
+│
+├── annotator
+│   └── (annotator project folders and files)
+│   
+├── augmentator
+|   └── (augmentator project folders and files)
+│
+└── docs
+    └── (docs project folders and files)
+```
+It is suggested to use the first configuration in VSCode because it allows to manage all the three source control repos in the same environment (updated on the code can be seen immediately in the documentation) 
+
+Otherwise there is the project structure alternative:
 ```bash
 mkdir apps
 cd apps
 git clone https://github.com/ekeel-project/annotator.git
 git clone https://github.com/ekeel-project/augmentator.git
+```
+This will create the following structure where both annotator and augmentator will be ignored to be pushed in a gitignore:
+```
+docs
+├── apps
+│   ├── annotator
+│   │   └── (annotator project folders and files)
+│   └── augmentator
+│       └── (augmentator project folders and files)
+└── (docs project folders and files)
 ```
 
 2. Install the packages from the ```requirements.txt``` file located in the ```mkdocs``` directory in a new environment:
