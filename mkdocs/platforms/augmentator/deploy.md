@@ -5,7 +5,7 @@
 ## Update and Setup Video Augmentation App
 Go inside EkeelVideoAugmentation app folder
 ```bash
-cd /var/www/ekeel/EVA_apps/EkeelVideoAugmentation/
+cd /var/www/apps/augmentator
 ```
 
 Go inside flask-server folder and update dependencies from requirements.txt
@@ -17,7 +17,7 @@ sudo systemctl restart ekeel-aug
 
 Go inside react-app folder
 ```bash
-cd /var/www/ekeel/EVA_apps/EkeelVideoAugmentation/src/react-app
+cd /var/www/apps/augmentator/src/react-app
 ```
 
 If you have a build folder, delete it

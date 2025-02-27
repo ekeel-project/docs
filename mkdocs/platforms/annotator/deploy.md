@@ -5,7 +5,7 @@
 ## Update and Setup Video Annotation App
 Go inside EKEELVideoAnnotation app folder
 ```bash
-cd /var/www/ekeel/EVA_apps/EKEELVideoAnnotation/
+cd /var/www/apps/annotator/code
 ```
 
 Update prune (TODO not always works, sometimes happen that one has to delete environment and reinstall due to conflicts) and restart
@@ -22,7 +22,7 @@ sudo systemctl restart ekeel
 For infos about linux services used in this project look [here](../../prerequisites/linux-services.md)
 
 ```bash
-cd /var/www/ekeel/EVA_apps/EkeelVideoAnnotation/
+cd /var/www/apps/annotator/code
 /home/torre/anaconda3/envs/ekeel_anno_env/bin/gunicorn --bind 127.0.0.1:5050 connector:app --timeout 180 --limit-request-line 0
 ```
 
@@ -35,20 +35,15 @@ ps -ef|grep gunicorn
 ## Run manually Video Augmentation App
 *(done automatically by "systemctl ekeel", use only for debugging)*
 ```bash
-cd /var/www/ekeel/EVA_apps/EkeelVideoAugmentation/src/flask-server
+cd /var/www/apps/augmentator/src/flask-server
 sudo /home/torre/anaconda3/envs/ekeel_aug_env/bin/python ./main.py
 ```
 
 -----
-## Important Files
-- **Github Repository folder:** `/var/www/ekeel`
-- **Video Annotation folder:** `/var/www/ekeel/EVA_apps/EkeelVideoAnnotation/`
-- **Video Augmentation folder:** `/var/www/ekeel/EVA_apps/EkeelVideoAugmentation/`
-
-## In case of Server Reinstall or Things gone wrong
-Go inside EKEELVideoAnnotation app folder
+## In case of Server reinstall or things gone wrong
+Go inside code app folder
 ```bash
-cd /var/www/ekeel/EVA_apps/EKEELVideoAnnotation/
+cd /var/www/apps/annotator/code
 ```
 
 Create the Annotator conda environment

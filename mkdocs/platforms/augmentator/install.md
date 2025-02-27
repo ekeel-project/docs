@@ -131,7 +131,7 @@ The guide is [here](deploy.md#update-and-setup-video-augmentation-app)
 
   ```python
     app.config["CLIENT_IMAGES"] = 
-    "/var/www/edurell/EVA_apps/EKEELVideoAnnotation/static/videos"
+    "/var/www/ekeel/code/static/videos"
   ```
 <br>
 

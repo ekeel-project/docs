@@ -17,6 +17,7 @@
 NGINX is used as a reverse proxy to route incoming HTTP requests to the appropriate backend services. It ensures that the Video Annotation and Video Augmentation services are accessible through a single domain and handles load balancing and static file serving.
 
 - Video Annotation Service: `/etc/systemd/system/ekeel.service`
+- Video Transcriber Service: `/etc/systemd/system/ekeel-transcriber.service`
 - Video Augmentation Service: `/etc/systemd/system/ekeel-wp3.service`
 
 #### Configuration
@@ -44,7 +45,7 @@ The following commands manage Ekeel systemd services, which handle tasks like st
 
 ```bash
 # Enable systemctl service
-sudo systemctl enable <name>
+sudo systemctl enable <name> # [ekeel, ekeel-wp3, ekeel-transcriber]
 
 # View info about status
 sudo systemctl status <name>
