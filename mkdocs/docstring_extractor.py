@@ -9,8 +9,17 @@ import sys
 
 nav = mkdocs_gen_files.Nav()
 
-root_code_dir = Path(__file__).parent.parent.parent.resolve()
-print("Root code dir:", root_code_dir)
+# Project folders annotator and augmentator should be either inside docs/apps or at the same level as docs
+root_code_dir = None
+
+if all([project_name in os.listdir(Path(__file__).parent.parent.parent) for project_name in ["annotator","augmentator"]]):
+    root_code_dir = Path(__file__).parent.parent.parent.resolve()
+elif all([project_name in os.listdir(Path(__file__).parent.parent.joinpath("apps")) for project_name in ["annotator","augmentator"]]):
+    root_code_dir = Path(__file__).parent.parent.joinpath("apps").resolve()
+    
+if root_code_dir is None:
+    raise Exception(f"Root code dir not found: {root_code_dir}")
+
 sys.path.insert(0, str(root_code_dir.parent))
 
 all_paths = []

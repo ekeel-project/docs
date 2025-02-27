@@ -19,35 +19,26 @@ jobs:
 
     - name: Clone annotator repository
       run: |
-        ls
-        cd ../
-        git clone https://github.com/ekeel-project/annotator.git
-        pwd
-        ls
+        mkdir -p apps
+        git clone https://github.com/ekeel-project/annotator.git apps/annotator
 
     - name: Clone augmentator repository
       run: |
-        ls
-        cd ../
-        git clone https://github.com/ekeel-project/augmentator.git
-        pwd
-        ls
+        git clone https://github.com/ekeel-project/augmentator.git apps/augmentator
 
     - name: Install dependencies for mkdocs
       run: |
-        pwd
         python -m pip install --upgrade pip
         pip install -r mkdocs/requirements.txt
 
     - name: Build site for main repository 🏗️
       run: |
-        pwd
         mkdocs build
 
     - name: Deploy repository to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: docs
+        publish_dir: ./docs
         publish_branch: gh-pages
         force_orphan: true
