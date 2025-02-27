@@ -67,7 +67,6 @@ nav:
   - Deploy:
     - Quickstart: platforms/quickstart.md
     - Local:
-      - Prerequisites: prerequisites/conda.md
       - Annotator: platforms/annotator/install.md
       - Augmentator: platforms/augmentator/install.md
     - Remote:
