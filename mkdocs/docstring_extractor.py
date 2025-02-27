@@ -10,6 +10,7 @@ import sys
 nav = mkdocs_gen_files.Nav()
 
 root_code_dir = Path(__file__).parent.parent.parent.resolve()
+print(root_code_dir)
 sys.path.insert(0, str(root_code_dir.parent))
 
 all_paths = []
