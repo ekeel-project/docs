@@ -19,23 +19,27 @@ jobs:
 
     - name: Clone annotator repository
       run: |
+        ls
         cd ../
         git clone https://github.com/ekeel-project/annotator.git
-        ls
+        pwd
 
     - name: Clone augmentator repository
       run: |
+        ls
         cd ../
         git clone https://github.com/ekeel-project/augmentator.git
-        ls
+        pwd
 
     - name: Install dependencies for mkdocs
       run: |
+        pwd
         python -m pip install --upgrade pip
         pip install -r mkdocs/requirements.txt
 
     - name: Build site for main repository 🏗️
       run: |
+        pwd
         mkdocs build
 
     - name: Deploy repository to GitHub Pages
