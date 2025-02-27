@@ -21,7 +21,7 @@ print(f"Root code dir: {root_code_dir}")
 if root_code_dir is None:
     raise Exception(f"Root code dir not found: {root_code_dir}")
 
-sys.path.insert(0, str(root_code_dir.parent))
+sys.path.insert(0, str(root_code_dir))
 
 all_paths = []
 for path in sorted(Path(root_code_dir).rglob("*.py")):
