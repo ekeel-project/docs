@@ -40,7 +40,7 @@ sudo /home/torre/anaconda3/envs/ekeel_aug_env/bin/python ./main.py
 ```
 
 -----
-## In case of Server reinstall or things gone wrong
+## In case of broken environment that requires reinstall
 Go inside code app folder
 ```bash
 cd /var/www/apps/annotator/code

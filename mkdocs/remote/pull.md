@@ -8,13 +8,24 @@ ssh torre@130.251.47.107
 ```
 
 -----
-## Update Ekeel App Files from the Repository
+## Update Ekeel App Files from the Repositories
 
-Go inside app folder (/var/www/ekeel)
+A script named `pull_updates` has been configured inside `/usr/local/bin/` to pull from both the repos at the same time.
 ```bash
-cd /var/www/ekeel
-# Pull new versions of files from repository
+# From anywhere in the console call
+sudo pull_updates
+```
+
+Otherise use these commands (replica of the script):
+```bash
+# Navigate to the annotator directory and pull
+cd /var/www/apps/annotator
 sudo git pull
+
+# Navigate to the augmentator directory and pull
+cd /var/www/apps/augmentator
+sudo git pull
+
 # username for github: Mirwe
 # password: < ask to project administrator >
 ```
@@ -39,7 +50,7 @@ A guide on how to do it is [here](https://docs.github.com/en/authentication/keep
 Go in static folder, then create folder videos and give permissions
 
 ```bash
-cd /var/www/ekeel/EVA_apps/EKEELVideoAnnotation/static
+cd /var/www/apps/annotator/code/static
 # create the folder if you don't have it already
 sudo mkdir videos
 sudo chmod 777 ./videos
