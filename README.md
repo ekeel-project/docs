@@ -13,10 +13,16 @@ The documentation refreshes every Monday at 4 AM and updates the website content
 
 ## Repositories
 
-The EKEEL project consists of two repositories:
+The EKEEL project is structured into several repositories, each dedicated to a specific functionality:
+
 
 - [Annotator](https://github.com/ekeel-project/annotator): This repository contains the code for the annotator service.
 - [Augmentator](https://github.com/ekeel-project/augmentator): This repository contains the code for the augmentator service.
+- [Analytics](https://github.com/ekeel-project/analytics): Implements learning analytics to recognize data patterns and model user behavior.
+- [Extractor](https://github.com/ekeel-project/extractor): Facilitates the automated extraction of knowledge graphs from educational video lessons.
+- [AugmentatorVR](https://github.com/ekeel-project/augmentatorVR): Dedicated to the AugmentatorVR service.
+
+As the project grows, additional repositories may be added to support new functionalities.
 
 ## Documentation
 
