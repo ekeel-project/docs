@@ -6,17 +6,22 @@ The documentation is available at the [ekeel-project/docs](https://ekeel-project
 
 ## Overview
 
-EKEEL (Empowering Knowledge Extraction to Empower Learners) is a project aimed at providing tools and services for knowledge extraction and use to provide video augmentation services. This repository contains the documentation for the EKEEL project, including setup guides, deployment instructions, and code references.
+
+EKEEL (Empowering Knowledge Extraction to Empower Learners) is a research project funded by the Italian Ministry of University and Research (MUR) under the PRIN 2022 PNRR programme, a nationally managed programme supported through the European Union – Next Generation EU.
+
+The project aims to develop tools and services for knowledge extraction and its application to video augmentation. This repository hosts the official documentation of the EKEEL project, including setup guides, deployment instructions, and technical references to the project components and codebase.
 
 The documentation refreshes every Monday at 4 AM and updates the website content.
 
 
 ## Repositories
 
-The EKEEL project consists of two repositories:
+The EKEEL project consists of the following repositories:
 
-- [Annotator](https://github.com/ekeel-project/annotator): This repository contains the code for the annotator service.
-- [Augmentator](https://github.com/ekeel-project/augmentator): This repository contains the code for the augmentator service.
+- [EKEEL_Annotator](https://github.com/ekeel-project/EKEEL_annotator): This repository contains the code for the EKEEL Annotator.
+- [EKEEL_Extractor](https://github.com/ekeel-project/EKEEL_extractor): This repository contains the code for the EKEEL Extractor.
+- [EKEEL_Augmentator](https://github.com/ekeel-project/EKEEL_augmentator): This repository contains the code for the EKEEL Augmentator.
+- [EKEEL_Learning_Analytics](https://github.com/ekeel-project/EKEEL_learning_analytics): This repository contains the code for the EKEEL Learning Analytics.
 
 ## Documentation
 
@@ -38,11 +43,13 @@ To build and serve the documentation locally, follow these steps:
     cd ekeel
     ```
 
-2. Clone `annotator` and `augmentator` repositories:
+2. Clone the project repositories:
     ```bash
     mkdir -p apps
-    git clone https://github.com/ekeel-project/annotator.git apps/annotator
-    git clone https://github.com/ekeel-project/annotator.git apps/augmentator
+    git clone https://github.com/ekeel-project/EKEEL_annotator.git apps/EKEEL_annotator
+    git clone https://github.com/ekeel-project/EKEEL_extractor.git apps/EKEEL_extractor
+    git clone https://github.com/ekeel-project/EKEEL_augmentator.git apps/EKEEL_augmentator
+    git clone https://github.com/ekeel-project/EKEEL_learning_analytics.git apps/EKEEL_learning_analytics
     ```
 
 3. Install the required dependencies:
