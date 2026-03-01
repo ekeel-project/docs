@@ -2,7 +2,7 @@
 
 Welcome to the EKEEL documentation repository. This repository uses [MkDocs](https://www.mkdocs.org/) to generate and host the documentation for the EKEEL project.
 
-%%The documentation is available at the [ekeel-project/docs](https://ekeel-project.github.io/docs/) website
+<!-- The documentation is available at the [ekeel-project/docs](https://ekeel-project.github.io/docs/) website -->
 
 ## Overview
 
