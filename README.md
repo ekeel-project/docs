@@ -18,10 +18,10 @@ The documentation refreshes every Monday at 4 AM and updates the website content
 
 The EKEEL project consists of the following repositories:
 
-- [EKEEL_Annotator](https://github.com/ekeel-project/EKEEL_annotator): This repository contains the code for the EKEEL Annotator.
-- [EKEEL_Extractor](https://github.com/ekeel-project/EKEEL_extractor): This repository contains the code for the EKEEL Extractor.
-- [EKEEL_Augmentator](https://github.com/ekeel-project/EKEEL_augmentator): This repository contains the code for the EKEEL Augmentator.
-- [EKEEL_Learning_Analytics](https://github.com/ekeel-project/EKEEL_learning_analytics): This repository contains the code for the EKEEL Learning Analytics.
+- [EKEEL_annotator](https://github.com/ekeel-project/EKEEL_annotator): This repository contains the code for the EKEEL Annotator.
+- [EKEEL_extractor](https://github.com/ekeel-project/EKEEL_extractor): This repository contains the code for the EKEEL Extractor.
+- [EKEEL_augmentator](https://github.com/ekeel-project/EKEEL_augmentator): This repository contains the code for the EKEEL Augmentator.
+- [EKEEL_learning_analytics](https://github.com/ekeel-project/EKEEL_learning_analytics): This repository contains the code for the EKEEL Learning Analytics.
 
 ## Documentation
 
