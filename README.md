@@ -6,7 +6,7 @@ The documentation is available at the [ekeel-project/docs](https://ekeel-project
 
 ## Overview
 
-EKEEL (Empowering Knowledge Extraction to Empower Learners) is a project aimed at providing tools and services for knowledge extraction and transcription. This repository contains the documentation for the EKEEL project, including setup guides, deployment instructions, and code references.
+EKEEL (Empowering Knowledge Extraction to Empower Learners) is a project aimed at providing tools and services for knowledge extraction and use to provide video augmentation services. This repository contains the documentation for the EKEEL project, including setup guides, deployment instructions, and code references.
 
 The documentation refreshes every Monday at 4 AM and updates the website content.
 
