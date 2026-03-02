@@ -18,10 +18,10 @@ The documentation refreshes every Monday at 4 AM and updates the website content
 
 The EKEEL project consists of the following repositories:
 
-- [EKEEL_annotator](https://github.com/ekeel-project/EKEEL_annotator): This repository contains the code for the EKEEL Annotator - Responsible Unit: University of Genoa (UniGe).
-- [EKEEL_extractor](https://github.com/ekeel-project/EKEEL_extractor): This repository contains the code for the EKEEL Extractor - Responsible Unit: National Research Council (CNR).
-- [EKEEL_augmentator](https://github.com/ekeel-project/EKEEL_augmentator): This repository contains the code for the EKEEL Augmentator - Responsible Unit: University of Genoa (UniGe).
-- [EKEEL_learning_analytics](https://github.com/ekeel-project/EKEEL_learning_analytics): This repository contains the code for the EKEEL Learning Analytics: University of Genoa (UniGe).
+- [EKEEL-video-annotation](https://github.com/ekeel-project/EKEEL-video-annotation): This repository contains the code for the EKEEL Annotator - Responsible Unit: University of Genoa (UniGe).
+- [EKEEL-kg-extraction](https://github.com/ekeel-project/EKEEL-kg-extraction): This repository contains the code for the EKEEL Extractor - Responsible Unit: National Research Council (CNR).
+- [EKEEL-video-augmentation](https://github.com/ekeel-project/-video-augmentation): This repository contains the code for the EKEEL Augmentator - Responsible Unit: University of Genoa (UniGe).
+- [EKEEL-learning-analytics](https://github.com/ekeel-project/EKEEL-learning-analytics): This repository contains the code for the EKEEL Learning Analytics: University of Genoa (UniGe).
 
 ## Documentation
 
